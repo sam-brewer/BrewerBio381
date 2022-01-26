@@ -1,0 +1,11 @@
+---
+title: "Homework_02.rmd"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Hi this is homework two.
+This is another line of text.
