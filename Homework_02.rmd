@@ -7,5 +7,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+[Home Page](index.html)
+
 Hi this is homework two.
 This is another line of text.
