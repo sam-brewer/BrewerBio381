@@ -217,7 +217,25 @@ How I did it:
 
 My input was `(\w+), (\w+), (.{2,})` and I listed captures 1 2 and then 3 inside of `\(\)` to add in the parentheses for the Universites</code></pre>
 <p><strong>Question 3</strong></p>
-<p>```</p>
+<pre><code>Original:
+
+0001 Georgia Horseshoe.mp3 0002 Billy In The Lowground.mp3 0003 Cherokee Shuffle.mp3 0004 Walking Cane.mp3
+
+New:
+
+0001 Georgia Horseshoe.mp3
+0002 Billy In The Lowground.mp3
+0003 Cherokee Shuffle.mp3
+0004 Walking Cane.mp3
+
+How I did it:
+
+I want to convert the space following each song&#39;s file name to a new line, so I searched for the captured phrase (mp3) followed by `\s` to indicate the space and replaces it with \1\r to move each captured portion to a new line</code></pre>
+<p><strong>Question 4</strong></p>
+<p>``` Original:</p>
+<p>Georgia Horseshoe_0001.mp3 Billy In The Lowground_0002.mp3 Cherokee Shuffle_0003.mp3 Walking Cane_0004.mp3</p>
+<p>New:</p>
+<p>How I did it:</p>
 
 
 
