@@ -1,5 +1,5 @@
 ---
-title: "MyWebsite"
+title: "Sam's Portfolio"
 output: html_document
 ---
 
@@ -9,5 +9,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 New Website
 
+## Homework Assignments
+
+### Homework for Lab 2
+
 Link to [this page](Homework_02.html)
+
+### Homework for Lab 3
+
+Link to [here](Homework_03.html)
 

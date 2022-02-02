@@ -1,0 +1,66 @@
+---
+title: "Homework 3"
+author: "Sam Brewer"
+date: "2/2/2022"
+output: 
+  html_document: 
+    number_sections: yes
+---
+
+
+**Question 1**
+
+```
+
+Original:
+
+First String    Second      1.22      3.4
+
+Second          More Text   1.555555  2.2220
+
+Third           x           3         124
+
+
+New:
+
+First String,Second,1.22,3.4
+
+Second,More Text,1.555555,2.2220
+
+Third,x,3,124
+
+
+How I did it:
+
+I used the `\h` wildcard to find and select all the spaces and selected two or more consecutive spaces using {2,} follwing the `\h`
+```
+
+**Question 2**
+
+```
+
+Original:
+
+Ballif, Bryan, University of Vermont
+
+Ellison, Aaron, Harvard Forest
+
+Record, Sydne, Bryn Mawr
+
+
+New:
+
+Ballif Bryan (University of Vermont)
+
+Ellison Aaron (Harvard Forest)
+
+Record Sydne (Bryn Mawr)
+
+How I did it:
+
+My input was `(\w+), (\w+), (.{2,})` and I listed captures 1 2 and then 3 inside of `\(\)` to add in the parentheses for the Universites
+```
+
+**Question 3**
+
+```
