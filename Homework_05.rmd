@@ -1,0 +1,103 @@
+---
+title: "Homework 5"
+author: "Sam Brewer"
+date: "2/16/2022"
+output: html_document
+---
+
+# Homework 5
+
+**Question 1**
+
+```{r}
+n_dims <- sample(x=3:10,size=1)
+# print(n_dims)
+
+# (n_dims)^2
+vector_one <- 1:(n_dims)^2
+# print(vector_one)
+
+vector_one <- sample(x=vector_one)
+# print(vector_one)
+
+sq_matrix <- matrix(vector_one, nrow= n_dims)
+
+print(sq_matrix)
+
+?t # fxn to transpose matrix in r
+sq_matrix <- t(sq_matrix)
+
+print(sq_matrix) # the rows are now columns and vice versa
+
+# ?sum
+sum(sq_matrix[1,])
+sum(sq_matrix[dim(sq_matrix)[1],])
+# ?mean
+mean(sq_matrix[1,])
+mean(sq_matrix[dim(sq_matrix)[1],])
+
+?eigen
+eigen(sq_matrix)
+
+typeof(eigen(sq_matrix)$values) # doubles
+typeof(eigen(sq_matrix)$vectors) # doubles
+
+```
+
+**Question 2**
+
+```{r}
+
+my_matrix <- matrix(runif(16),nrow=4, ncol=4)
+# print(my_matrix)
+
+random_numbers <- runif(100)
+my_logical <- random_numbers>0.5
+# print(my_logical)
+
+my_letters <- letters
+# print(my_letters)
+
+combined_list <- list(my_matrix[2,2],
+                  my_logical[2],
+                  my_letters[2])
+# print(combined_list)
+
+typeof(combined_list)
+typeof(combined_list[[1]]) # use double brackets to call/index items in a list
+typeof(combined_list[[2]])
+typeof(combined_list[[3]])
+
+unrolled_list <- unlist(combined_list)
+print(unrolled_list)
+
+
+single_vector <- c(unrolled_list)
+print(single_vector)
+typeof(single_vector) # character
+
+```
+
+**Question 3**
+
+```{r}
+
+my_unis <- runif(26, min=1, max=10)
+# print(my_unis)
+
+my_letters <- sample(LETTERS)
+# print(my_letters)
+
+d_frame <- data.frame(my_unis,my_letters)
+
+d_frame[sample(length(d_frame$my_unis),4),1] <- NA
+# print(d_frame)
+
+which(!complete.cases(d_frame$my_unis))
+
+d_frame <- d_frame[order(d_frame$my_letters),]
+# print(d_frame)
+
+mean(d_frame[length(d_frame$my_unis),1])
+
+```

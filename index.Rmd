@@ -23,3 +23,6 @@ Link to [here](Homework_03.html)
 
 [click here](Homework_04.html) to access 
 
+### Homework for Lab 5
+
+The link is [here](Homework_05.html)
