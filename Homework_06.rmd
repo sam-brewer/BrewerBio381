@@ -5,23 +5,35 @@ date: "2/23/2022"
 output: html_document
 ---
 
+## Open Libraries
+```{r}
+library(ggplot2) # for graphics
+library(MASS) # for maximum likelihood estimation
+```
 
+## My Own Data
+```{r}
+z <- read.table("Cleaned2021VegetationData.csv",header=TRUE,sep=",")
+str(z)
+summary(z)
+```
 
 ## Read in Data Vector
 ```{r}
 # quick and dirty, a truncated normal distribution to work on the solution set
 
-z <- rnorm(n=3000,mean=0.2)
-z <- data.frame(1:3000,z)
-names(z) <- list("ID","myVar")
-z <- z[z$myVar>0,]
-str(z)
-summary(z$myVar)
+#z <- rnorm(n=3000,mean=0.2)
+#z <- data.frame(1:3000,z)
+#names(z) <- list("ID","myVar")
+#z <- z[z$myVar>0,]
+#str(z)
+#summary(z$myVar)
 ```
+
 
 ## Plot Histogram of Data
 ```{r}
-p1 <- ggplot(data=z, aes(x=myVar, y=..density..)) +
+p1 <- ggplot(data=z, aes(x=Height_cm, y=..density..)) +
   geom_histogram(color="grey60",fill="cornsilk",size=0.2) 
 print(p1)
 ```
@@ -34,7 +46,7 @@ print(p1)
 
 ## Get Maximum Likelihood Parameters for Normal
 ```{r}
-normPars <- fitdistr(z$myVar,"normal")
+normPars <- fitdistr(z$Height_cm,"normal")
 print(normPars)
 str(normPars)
 normPars$estimate["mean"] # note structure of getting a named attribute
@@ -44,57 +56,80 @@ normPars$estimate["mean"] # note structure of getting a named attribute
 ```{r}
 meanML <- normPars$estimate["mean"]
 sdML <- normPars$estimate["sd"]
-
-xval <- seq(0,max(z$myVar),len=length(z$myVar))
-
-stat <- stat_function(aes(x = xval, y = ..y..), fun = dnorm, colour="red", n = length(z$myVar), args = list(mean = meanML, sd = sdML))
+xval <- seq(0,max(z$Height_cm),len=length(z$Height_cm))
+stat <- stat_function(aes(x = xval, y = ..y..), fun = dnorm, colour="red", n = length(z$Height_cm), args = list(mean = meanML, sd = sdML))
 p1 + stat
 ```
 
 ## Plot `Exponential` Probability Density
 ```{r}
-expoPars <- fitdistr(z$myVar,"exponential")
+expoPars <- fitdistr(z$Height_cm,"exponential")
 rateML <- expoPars$estimate["rate"]
-
-stat2 <- stat_function(aes(x = xval, y = ..y..), fun = dexp, colour="blue", n = length(z$myVar), args = list(rate=rateML))
+stat2 <- stat_function(aes(x = xval, y = ..y..), fun = dexp, colour="blue", n = length(z$Height_cm), args = list(rate=rateML))
 p1 + stat + stat2
 ```
 
 ## Plot `Uniform` Probability Density
 ```{r}
-stat3 <- stat_function(aes(x = xval, y = ..y..), fun = dunif, colour="darkgreen", n = length(z$myVar), args = list(min=min(z$myVar), max=max(z$myVar)))
+stat3 <- stat_function(aes(x = xval, y = ..y..), fun = dunif, colour="darkgreen", n = length(z$Height_cm), args = list(min=min(z$myVar), max=max(z$myVar)))
 p1 + stat + stat2 + stat3
 ```
 
 ## Plot `Gamma` Probability Density
 ```{r}
-gammaPars <- fitdistr(z$myVar,"gamma")
+gammaPars <- fitdistr(z$Height_cm,"gamma")
 shapeML <- gammaPars$estimate["shape"]
 rateML <- gammaPars$estimate["rate"]
-
-stat4 <- stat_function(aes(x = xval, y = ..y..), fun = dgamma, colour="brown", n = length(z$myVar), args = list(shape=shapeML, rate=rateML))
+stat4 <- stat_function(aes(x = xval, y = ..y..), fun = dgamma, colour="brown", n = length(z$Height_cm), args = list(shape=shapeML, rate=rateML))
 p1 + stat + stat2 + stat3 + stat4
 ```
 
 ## Plot `Beta` Probability Density
 ```{r}
-pSpecial <- ggplot(data=z, aes(x=myVar/(max(myVar + 0.1)), y=..density..)) +
+pSpecial <- ggplot(data=z, aes(x=Height_cm/(max(Height_cm + 0.1)), y=..density..)) +
   geom_histogram(color="grey60",fill="cornsilk",size=0.2) + 
   xlim(c(0,1)) +
   geom_density(size=0.75,linetype="dotted")
 
-betaPars <- fitdistr(x=z$myVar/max(z$myVar + 0.1),start=list(shape1=1,shape2=2),"beta")
+betaPars <- fitdistr(x=z$Height_cm/max(z$Height_cm + 0.1),start=list(shape1=1,shape2=2),"beta")
 shape1ML <- betaPars$estimate["shape1"]
 shape2ML <- betaPars$estimate["shape2"]
-
-statSpecial <- stat_function(aes(x = xval, y = ..y..), fun = dbeta, colour="orchid", n = length(z$myVar), args = list(shape1=shape1ML,shape2=shape2ML))
+statSpecial <- stat_function(aes(x = xval, y = ..y..), fun = dbeta, colour="orchid", n = length(z$Height_cm), args = list(shape1=shape1ML,shape2=shape2ML))
 pSpecial + statSpecial
 ```
 
+**Gamma is the best fitting distribution.**
 
-## My Own Data
+## Simulate New Data Set
 ```{r}
-z <- read.table("MyDataFile.csv",header=TRUE,sep=",")
+#generate data using gamma
+z <- rgamma(n=288,
+            shape=3.568224649,
+            rate=0.101954357)
+z <- data.frame(1:288,z)
+names(z) <- list("ID","Height_cm")
+z <- z[z$Height_cm>0,]
 str(z)
-summary(z)
+summary(z$Height_cm)
+#plot histogram
+p1 <- ggplot(data=z, aes(x=Height_cm, y=..density..)) +
+  geom_histogram(color="grey60",fill="cornsilk",size=0.2) 
+print(p1)
+#add probability density curve
+p1 <-  p1 +  geom_density(linetype="dotted",size=0.75)
+print(p1)
 ```
+## Histogram of Original Data
+```{r}
+z <- read.table("Cleaned2021VegetationData.csv",header=TRUE,sep=",")
+p1 <- ggplot(data=z, aes(x=Height_cm, y=..density..)) +
+  geom_histogram(color="grey60",fill="cornsilk",size=0.2) 
+print(p1)
+```
+
+## **Questions**
+
+How do the two histogram profiles compare? Do you think the model is doing a good job of simulating realistic data that match your original measurements? Why or why not?
+
+The actual data has more of a bimodal distribution so it deviates from the simulated one which is unimodal skewed right, but for the left hand side of the plot it is similar.
+
