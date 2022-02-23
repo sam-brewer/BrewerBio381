@@ -26,3 +26,8 @@ Link to [here](Homework_03.html)
 ### Homework for Lab 5
 
 The link is [here](Homework_05.html)
+
+###Homework for Lab 6
+
+[Here](Homework_06.html) is the link
+
