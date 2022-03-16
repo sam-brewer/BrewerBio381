@@ -35,3 +35,8 @@ The link is [here](Homework_05.html)
 
 Click [here](Homework_07.html)
 
+### Homework for Lab 8
+
+[Here](Homework_08.html)
+
+

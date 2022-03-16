@@ -1,0 +1,141 @@
+---
+title: "Homework_08"
+author: "Sam Brewer"
+date: "3/16/2022"
+output: html_document
+---
+[Study used](https://www.epa.gov/sites/default/files/2016-06/documents/phosphorus-tmdls-vermont-segments-lake-champlain-jun-17-2016.pdf)
+
+The long-term response of phosphorus concentrations is modeled by the equation `Y = 53.74 – 47.04 X` for the Missisquoi Bay where Y = predicted bay annual average total phosphorus concentration (µg/L) 70 years after watershed load
+reduction is achieved
+X = percent (as decimal fraction) watershed phosphorus load reduction from base period rates
+
+## Creating the simulated data for 50% phosphorus loading capacity
+```{r}
+beta1 <- 53.74 # slope
+beta0 <- 47.04 # intercept
+noise <- rnorm(n=100, mean=0, sd=0.05) # adds variation to the data set
+x_normalP <- rnorm(n=100, mean=0.50, sd=0.050)
+y_normalP <- beta0 + beta1*x_normalP +noise
+head(x_normalP)
+head(y_normalP)
+```
+## Other data sets for 75%, 25%, and 50% with low SD, respectively
+
+```{r}
+x_highP <- rnorm(n=100, mean=0.75, sd=0.050)
+y_highP <- beta0 + beta1*x_highP + noise
+head(x_highP)
+head(y_highP)
+
+x_lowP <- rnorm(n=100, mean=0.25, sd=0.050)
+y_lowP <- beta0 + beta1*x_lowP + noise
+head(x_lowP)
+head(y_lowP)
+
+x_lowsdP <- rnorm(n=100, mean=0.50, sd=0.005)
+y_lowsdP <- beta0 + beta1*x_lowsdP + noise
+head(x_lowsdP)
+head(y_lowsdP)
+```
+
+## Creating a data frame
+```{r}
+d_frame <- data.frame(x_normalP,y_normalP,x_highP,y_highP,x_lowP,y_lowP,x_lowsdP,y_lowsdP)
+```
+
+## Data Analysis with Linear Regression of 50% P
+
+```{r}
+library(ggplot2)
+
+reg_model <- lm(y_normalP~x_normalP,data=d_frame)
+
+slope <- summary(reg_model)$coefficients[1,1]
+intercept <- summary(reg_model)$coefficients[1,2]
+slope == beta0
+intercept == beta1
+
+reg_plot <- ggplot(data=d_frame, aes(x=x_normalP, y=y_normalP)) +
+            geom_point() +
+            stat_smooth(method=lm,se=0.95)
+print(reg_plot)
+  
+```
+
+## Different Means
+
+### 75% P
+```{r}
+reg_model <- lm(y_highP~x_highP,data=d_frame)
+
+slope <- summary(reg_model)$coefficients[1,1]
+intercept <- summary(reg_model)$coefficients[1,2]
+slope == beta0
+intercept == beta1
+
+reg_plot <- ggplot(data=d_frame, aes(x=x_highP, y=y_highP)) +
+            geom_point() +
+            stat_smooth(method=lm,se=0.95)
+print(reg_plot)
+```
+
+### 25% P
+```{r}
+reg_model <- lm(y_lowP~x_lowP,data=d_frame)
+
+slope <- summary(reg_model)$coefficients[1,1]
+intercept <- summary(reg_model)$coefficients[1,2]
+slope == beta0
+intercept == beta1
+
+reg_plot <- ggplot(data=d_frame, aes(x=x_lowP, y=y_lowP)) +
+            geom_point() +
+            stat_smooth(method=lm,se=0.95)
+print(reg_plot)
+```
+
+## Different Standard Deviation
+
+### low SD, 50% P
+```{r}
+reg_model <- lm(y_lowsdP~x_lowsdP,data=d_frame)
+
+slope <- summary(reg_model)$coefficients[1,1]
+intercept <- summary(reg_model)$coefficients[1,2]
+slope == beta0
+intercept == beta1
+
+reg_plot <- ggplot(data=d_frame, aes(x=x_lowsdP, y=y_lowsdP)) +
+            geom_point() +
+            stat_smooth(method=lm,se=0.95)
+print(reg_plot)
+```
+
+## Different Sample Size
+
+### n=10
+```{r}
+x_small <- rnorm(n=10, mean=0.50, sd=0.050)
+y_small <- beta0 + beta1*x_small + noise
+head(x_small)
+head(y_small)
+
+d_frame <- data.frame(x_small,y_small)
+
+reg_model <- lm(y_small~x_small,data=d_frame)
+
+slope <- summary(reg_model)$coefficients[1,1]
+intercept <- summary(reg_model)$coefficients[1,2]
+slope == beta0
+slope
+intercept == beta1
+
+reg_plot <- ggplot(data=d_frame, aes(x=x_small, y=y_small)) +
+            geom_point() +
+            stat_smooth(method=lm,se=0.95)
+print(reg_plot)
+```
+The slope is still very close to the original at this small sample size. I added noise for all simulations above to try and make the regression less close to the original equation.
+
+
