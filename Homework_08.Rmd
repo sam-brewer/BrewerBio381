@@ -139,3 +139,4 @@ print(reg_plot)
 The slope is still very close to the original at this small sample size. I added noise for all simulations above to try and make the regression less close to the original equation.
 
 
+
