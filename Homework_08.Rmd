@@ -4,6 +4,8 @@ author: "Sam Brewer"
 date: "3/16/2022"
 output: html_document
 ---
+# Homework 8
+
 [Study used](https://www.epa.gov/sites/default/files/2016-06/documents/phosphorus-tmdls-vermont-segments-lake-champlain-jun-17-2016.pdf)
 
 The long-term response of phosphorus concentrations is modeled by the equation `Y = 53.74 – 47.04 X` for the Missisquoi Bay where Y = predicted bay annual average total phosphorus concentration (µg/L) 70 years after watershed load

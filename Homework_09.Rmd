@@ -1,0 +1,123 @@
+---
+title: "Homework 9"
+author: "Sam Brewer"
+date: "3/23/2022"
+output: html_document
+---
+
+```{r}
+# Description --------------------------------------
+# Homework 9, reorganizing homework 8 data evaluation into the structured programming format
+# 23 Mar 2022
+# SKB
+
+# Initialize ---------------------------------------
+library(tidyverse)
+
+# Load Functions -----------------------------------
+
+# functions are included in this script
+
+# Global Variables ---------------------------------
+
+beta1 <- 53.74 # slope
+beta0 <- 47.04 # intercept
+
+# Program Body -------------------------------------
+
+```
+Functions:
+
+```{r}
+####################################################
+# FUNCTION: p_capacity
+# purpose: create the simulated data
+# input: n, mean, and sd
+# output: data frame of x and y values
+# ----------------------------------
+p_capacity <- function(size=100,avg=0.5,stdev=0.050) {
+  noise <- rnorm(n=size, mean=0, sd=0.05) # adds variation to the data set
+  x_var <- rnorm(n=size,
+             mean=avg,
+             sd=stdev)
+  y_var <- beta0 + beta1*x_var + noise
+  df <- data.frame(x_var, y_var)
+  return(df)
+}
+
+####################################################
+# FUNCTION: linear_reg
+# purpose: to determine the similarity of the simulated data to known modeled equation and plot linear regression
+# input: x and y from d_frame
+# output: regression plot
+# ----------------------------------
+linear_reg <- function(df=df1) {
+  reg_model <- lm(y_var~x_var, data=df)
+
+  slope <- summary(reg_model)$coefficients[1,1]
+  intercept <- summary(reg_model)$coefficients[1,2]
+  message("The slope for the sim data is the same as model equation ")
+  if(slope == beta0) {
+  message("The intercept for the sim data is the same as model equation ")
+    }
+  if(intercept == beta1) {
+  message("The intercept for the sim data is the same as model equation ")
+    }
+
+  reg_plot <- ggplot(data=df,aes(x=x_var, y=y_var)) +
+                    geom_point() +
+                    stat_smooth(method=lm,se=0.95)
+  return(reg_plot)
+}
+```
+
+Run Functions:
+
+```{r}
+p_capacity()
+df1 <- p_capacity()
+linear_reg()
+```
+
+Additional Input:
+
+```{r}
+####################################################
+# FUNCTION: gen_mean
+# purpose: generate a random mean value for phosphorus capacity
+# input: NULL
+# output: mean
+# ----------------------------------
+gen_mean <- function() {
+  
+  avg <- runif(1)
+  if(avg < 0.5000) {message("mean is below half phosphorus capacity")}
+    else {message("mean is above half phosphorus capacity")}
+  return(avg)
+}
+
+####################################################
+# FUNCTION: gen_sd
+# purpose: generate a random standard deviation value
+# input: "high" or "low"
+# output: sd
+# ----------------------------------
+gen_sd <- function(variation=NULL) {
+  if(variation == "high") {
+  stdev <- runif(1, min=0.0501, max=0.200)
+  }
+  if(variation == "low") {
+    stdev <- runif(1, min=0.005, max=0.050)
+    }
+  return(stdev)
+}
+
+```
+
+```{r}
+gen_mean()
+gen_sd(variation="low")
+p_capacity()
+df1 <- p_capacity()
+linear_reg()
+```

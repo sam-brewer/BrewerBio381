@@ -39,4 +39,8 @@ Click [here](Homework_07.html)
 
 [Here](Homework_08.html)
 
+### Homework for Lab 9
+
+Link to [this page](Homework_09.html)
+
 
