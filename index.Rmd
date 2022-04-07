@@ -43,4 +43,10 @@ Click [here](Homework_07.html)
 
 Link to [this page](Homework_09.html)
 
+### Homework for Lab 10
 
+The link is [here](Homework_10.html)
+
+### Homework for Lab 11
+
+Link to [this page](Homework_11.html)

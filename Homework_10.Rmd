@@ -1,0 +1,122 @@
+---
+title: "Homework 10"
+author: "Sam Brewer"
+date: "3/30/2022"
+output: html_document
+---
+## Homework 10
+
+1. Setting counter variable and for loop to calculate the number of zeros in a numeric vector
+```{r}
+
+####################################################
+# FUNCTION: count_zeros
+# purpose: calculate the number of zeroes in a numeric vector
+# input: numeric vector
+# output: numeric value
+# ----------------------------------
+count_zeros <- function(size=100) {
+  num_vec <- floor(runif(size,
+                         min=0,
+                         max=10))
+  counter <- 0
+  for(i in 1:length(num_vec)){
+    if(num_vec[i]==0){
+      counter <- (counter + 1)
+    }
+  }
+return(counter)
+}
+
+count_zeros()
+
+```
+2. Subsetting instead for question 1
+
+```{r}
+num_vec <- floor(runif(100, min=0, max=10))
+sum(num_vec==0)
+
+```
+
+Question 3
+
+```{r}
+
+####################################################
+# FUNCTION: matrix_math
+# purpose: multiply row and column numbers in matrix
+# input: two integers representing the number of rows and columns in a matrix
+# output:  matrix of these dimensions
+# ----------------------------------
+
+two_integers <- floor(runif(2,
+                         min=1,
+                         max=5))
+
+matrix_math <- function(x=NULL,y=NULL) {
+  new_matrix <- matrix(data=NA,
+                       nrow=x,
+                       ncol=y)
+  for(i in 1:nrow(new_matrix)){
+    for(j in 1:ncol(new_matrix)){
+    new_matrix[i,j] <- i*j
+    }
+  }
+  return(new_matrix)
+}
+
+x1 <- two_integers[1]
+y1 <- two_integers[2]
+matrix_math(x=x1,y=y1)
+
+```
+
+Question 4
+
+```{r}
+
+dataset <- c(rep("Group1",3),
+             rep("Group2",3),
+             rep("Group3",3))
+print(dataset)
+
+response <- c(runif(4) +1, runif(5) + 10)
+
+df1 <- data.frame(Group=dataset, Response.Variable=response)
+print(df)
+
+####################################################
+# FUNCTION: 4b
+# purpose: reshuffles the response variable
+# calculates the mean of each group in the reshuffled data
+# and store the means
+# input: numeric vector
+# output: vector of length 3
+# ----------------------------------
+four_b <- function(df=df1) {
+  df2 <- data.frame(Group=df1$Group, Response.Variable=sample(x=df1$Response.Variable,size=length(df1$Response.Variable)))
+  with_means <- group_by(df2, Group)
+  grouped_data <- summarize(with_means, meanRes = mean(Response.Variable, na.rm=T), N = n())
+  return(grouped_data)
+}
+
+stats <- data.frame(NA)
+
+
+for(i in 1:100){
+  stats[i,2:4]<- four_b() %>%
+  pivot_wider(names_from=Group,
+              values_from = meanRes) %>%
+  select(Group1:Group3)
+stats[i,1] <- i
+
+}
+
+names(stats)[1] <- "Rep"
+print(stats)
+
+qplot(stats$Group1)
+qplot(stats$Group2)
+qplot(stats$Group3)
+```
