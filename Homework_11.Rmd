@@ -5,12 +5,11 @@ date: "4/6/2022"
 output: html_document
 ---
 
-Code to condense the data in files produced by the Lachat analysis instrument. Remove unnecessary columns, leaving run date, sample IDs, and concentration values and units. New condensed data is saved to a new file.
+Code to condense the data in files produced by the Lachat analysis instrument. It removes unnecessary columns, leaving: the run date, sample IDs, and concentration values and units (for nitrogen and phosphorus). The new condensed data is saved to a separate file.
 
 ```{r}
 library(dplyr)
 library(tidyverse)
-install.packages("janitor")
 library(janitor)
 
 file_folder <- "Bio381Data/"
@@ -26,30 +25,22 @@ for (i in seq_along(file_names)) {
                      stringsAsFactors = FALSE)
   
   data <- data %>%
-    clean_names() %>%
-    rename(p_peak_concentration=data[,8],
-           p_concentration_units=data[,9],
-           n_peak_concentration=data[,13],
-           n_concentration_units=data[,14] ) %>%
-    select(sample_id, detection_date, peak_concentration, concentration_units, peak_concentration, concentration_units) 
+    clean_names()
+  names(data)[8] <-"p_peak_concentration"
+  names(data)[9] <-"p_concentration_units"
+  names(data)[13] <-"n_peak_concentration"
+  names(data)[14] <-"n_concentration_units"
+  data<- data %>%
+    select(sample_id, detection_date, p_peak_concentration, p_concentration_units, n_peak_concentration, n_concentration_units) 
   print(data)
-  # #write.table(x=data,
-  #           file=file_out,
-  #           row.names=FALSE,
-  #           col.names=TRUE,
-  #           sep=",",
-  #           append=TRUE)
+  write.table(x=data,
+              file=file_out,
+              row.names=FALSE,
+              col.names=TRUE,
+              sep=",",
+              append=TRUE)
 }
 
-df <- read.table(paste(file_folder,file_names[1],sep=""),
-                     sep=",",
-                     header=TRUE,
-                     stringsAsFactors = FALSE)
 
-df<- df %>%
-    clean_names() 
-
-names(df)[8] <-"p_peak_concentration"
-names(df
 
 ```
