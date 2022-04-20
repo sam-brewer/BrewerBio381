@@ -5,6 +5,8 @@ date: "4/6/2022"
 output: html_document
 ---
 
+## Homework 11
+
 Code to condense the data in files produced by the Lachat analysis instrument. It removes unnecessary columns, leaving: the run date, sample IDs, and concentration values and units (for nitrogen and phosphorus). The new condensed data is saved to a separate file.
 
 ```{r}
@@ -38,7 +40,8 @@ for (i in seq_along(file_names)) {
               row.names=FALSE,
               col.names=TRUE,
               sep=",",
-              append=TRUE)
+              append=TRUE
+              )
 }
 
 

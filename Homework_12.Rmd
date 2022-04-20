@@ -1,0 +1,153 @@
+---
+title: "Homework 12"
+author: "Sam Brewer"
+date: "4/13/2022"
+output: html_document
+---
+
+## Homework 12
+
+```{r, warning=F,message=F}
+
+#preliminaries
+library(tidyverse)
+library(ggplot2)
+library(ggthemes)
+library(patchwork)
+
+# reads my vegetation data from 2021
+data <- read.table(file="Cleaned2021VegetationData.csv",
+                   header=TRUE,
+                   sep=",",
+                   comment.char="#")
+str(data)
+
+# basic histogram of percent green cover for all measurements
+qplot(data$PercentGreenCover)
+
+qplot(x=data$PercentGreenCover,
+      fill=I("olivedrab3"),color=I("black"))
+
+# reorder dates so they are chronological
+data$Date <- factor(data$Date, levels = c("7/13/2021","8/4/2021", "8/27/2021","10/4/2021"))
+
+#filtering to get data from Oct 4 2021
+OctFourthPCG <- filter(data, Date=="10/4/2021")
+
+#plotting percent green cover values from the date specified above
+pgc4 <- ggplot(data=OctFourthPCG,
+            mapping=aes(x=PercentGreenCover,y=PlotID)) + geom_point()
+print(pgc4 + theme_solarized())
+
+#filtering the data to get the heights of coneflowers over 4 measurement dates
+OneAData <- filter(data, PlotID == "1A")
+ConeflowerOneA <- filter(OneAData, Plant=="Coneflower")
+str(ConeflowerOneA)
+g1AC <- ggplot(data=ConeflowerOneA,
+               mapping=aes(x=Date,
+                           y=Height_cm,
+                           fill=I("orchid4"),
+                           color=I("black"))) +
+  geom_bar(stat="summary", fun="mean") +
+  theme(legend.position="none") +
+  theme_classic(base_size=10,base_family="times") +
+  plot_annotation('Plot 1A') +
+  labs(y="Height (in cm)") # changes the y axis name
+print(g1AC)
+
+OneBData <- filter(data, PlotID == "1B")
+ConeflowerOneB <- filter(OneBData, Plant=="Coneflower")
+str(ConeflowerOneB)
+g1BC <- ggplot(data=ConeflowerOneB,
+               mapping=aes(x=Date,
+                           y=Height_cm,
+                           fill=I("orchid3"),
+                           color=I("black"))) +
+  geom_bar(stat="summary", fun="mean") +
+  theme(legend.position="none") +
+  theme_classic(base_size=10,base_family="times") +
+  plot_annotation('Plot 1B') +
+  labs(y="Height (in cm)")
+print(g1BC)
+
+OneCData <- filter(data, PlotID == "1C")
+ConeflowerOneC <- filter(OneCData, Plant=="Coneflower")
+str(ConeflowerOneC)
+g1CC <- ggplot(data=ConeflowerOneC,
+               mapping=aes(x=Date,
+                           y=Height_cm,
+                           fill=I("orchid2"),
+                           color=I("black"))) +
+  geom_bar(stat="summary", fun="mean") +
+  theme(legend.position="none") +
+  theme_classic(base_size=10,base_family="times") +
+  plot_annotation('Plot 1C') +
+  labs(y="Height (in cm)")
+print(g1CC)
+
+#place the 3 plots of the replicates for treatment 1 (A B and C) next to one another vertically
+g1AC + g1BC + g1CC +
+  plot_layout(ncol=1) +
+  plot_annotation('Coneflower Heights Treatment 1')
+
+####################################################
+
+#reads winter water sample data
+data <- read.table(file="CondensedWinterData.csv",
+                   header=TRUE,
+                   sep=",",
+                   comment.char="#")
+
+# shows data summary
+glimpse(data)
+
+# remove rows with NA
+dataClean <- data[complete.cases(data),]
+
+# basic plot of all nitrate data distribution
+#N
+qplot(x=dataClean$Nitrate,
+      fill=I("olivedrab3"),color=I("black"))
+
+#P
+qplot(x=dataClean$Phosphate,
+      fill=I("olivedrab1"),color=I("black"))
+
+#remove rows where value is less than detection limit
+# 0.14 mg/L for N
+NDataClean <- filter(dataClean, Nitrate > 0.14)
+str(NDataClean)
+# 7 microg/L for P
+PDataClean <- filter(dataClean, Phosphate > 7)
+str(PDataClean)
+
+# plots
+# N
+plot1 <- ggplot(data=NDataClean,
+               mapping=aes(x=Treatment,
+                           y=Nitrate,
+                           fill=I("orchid4"),
+                           color=I("black"))) +
+  geom_bar(stat="summary", fun="mean") +
+  theme(legend.position="none") +
+  theme_classic(base_size=15,base_family="times")
+print(plot1)
+
+# P
+plot2 <- ggplot(data=PDataClean,
+                mapping=aes(x=Treatment,
+                            y=Phosphate,
+                            fill=I("orchid1"),
+                            color=I("black"))) +
+  geom_bar(stat="summary", fun="mean") +
+  theme(legend.position="none") +
+  theme_classic(base_size=15,base_family="times")
+print(plot2)
+
+# multiple bars in plot over all dates
+# P
+plot3 <- ggplot(PDataClean,aes(x=Date,y=Phosphate, fill=Treatment)) + geom_col(position="dodge2",color="black",size=0.5) +
+  scale_fill_viridis_c(option="plasma")
+print(plot3)
+
+```
