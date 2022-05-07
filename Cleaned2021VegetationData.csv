@@ -1,289 +1,289 @@
-Date,PlotID,Plant,VegID,Height_cm,PercentGreenCover
-10/4/2021,1A,Milkweed,M1,16.5,5.91
-10/4/2021,1A,Milkweed,M2,24,
-10/4/2021,1A,Coneflower,C1,12.5,
-10/4/2021,1A,Coneflower,C2,19,
-10/4/2021,1A,Joe-Pye,J1,64,
-10/4/2021,1A,Joe-Pye,J2,36.5,
-10/4/2021,1B,Milkweed,M1,21.5,4.49
-10/4/2021,1B,Milkweed,M2,23,
-10/4/2021,1B,Coneflower,C1,21,
-10/4/2021,1B,Coneflower,C2,17,
-10/4/2021,1B,Joe-Pye,J1,44,
-10/4/2021,1B,Joe-Pye,J2,47.5,
-10/4/2021,1C,Milkweed,M1,28.5,7.36
-10/4/2021,1C,Milkweed,M2,16,
-10/4/2021,1C,Coneflower,C1,20,
-10/4/2021,1C,Coneflower,C2,22.5,
-10/4/2021,1C,Joe-Pye,J1,39,
-10/4/2021,1C,Joe-Pye,J2,62,
-10/4/2021,2A,Milkweed,M1,35,37.79
-10/4/2021,2A,Milkweed,M2,41,
-10/4/2021,2A,Coneflower,C1,23,
-10/4/2021,2A,Coneflower,C2,22,
-10/4/2021,2A,Joe-Pye,J1,68.5,
-10/4/2021,2A,Joe-Pye,J2,78.5,
-10/4/2021,2B,Milkweed,M1,29,23.77
-10/4/2021,2B,Milkweed,M2,26,
-10/4/2021,2B,Coneflower,C1,32,
-10/4/2021,2B,Coneflower,C2,32.5,
-10/4/2021,2B,Joe-Pye,J1,69,
-10/4/2021,2B,Joe-Pye,J2,77,
-10/4/2021,2C,Milkweed,M1,34,33.6
-10/4/2021,2C,Milkweed,M2,30,
-10/4/2021,2C,Coneflower,C1,28,
-10/4/2021,2C,Coneflower,C2,28,
-10/4/2021,2C,Joe-Pye,J1,69,
-10/4/2021,2C,Joe-Pye,J2,69.5,
-10/4/2021,3A,Milkweed,M1,19,28.56
-10/4/2021,3A,Milkweed,M2,38.5,
-10/4/2021,3A,Coneflower,C1,25.5,
-10/4/2021,3A,Coneflower,C2,80.5,
-10/4/2021,3A,Joe-Pye,J1,59,
-10/4/2021,3A,Joe-Pye,J2,75,
-10/4/2021,3B,Milkweed,M1,33,27.03
-10/4/2021,3B,Milkweed,M2,27,
-10/4/2021,3B,Coneflower,C1,74,
-10/4/2021,3B,Coneflower,C2,24.5,
-10/4/2021,3B,Joe-Pye,J1,72.5,
-10/4/2021,3B,Joe-Pye,J2,66.5,
-10/4/2021,3C,Milkweed,M1,50.5,35.19
-10/4/2021,3C,Milkweed,M2,32,
-10/4/2021,3C,Coneflower,C1,20,
-10/4/2021,3C,Coneflower,C2,22.5,
-10/4/2021,3C,Joe-Pye,J1,74.5,
-10/4/2021,3C,Joe-Pye,J2,58,
-10/4/2021,4A,Milkweed,M1,36.5,35.95
-10/4/2021,4A,Milkweed,M2,44,
-10/4/2021,4A,Coneflower,C1,26.5,
-10/4/2021,4A,Coneflower,C2,23,
-10/4/2021,4A,Joe-Pye,J1,85,
-10/4/2021,4A,Joe-Pye,J2,73.5,
-10/4/2021,4B,Milkweed,M1,43,43.9
-10/4/2021,4B,Milkweed,M2,42,
-10/4/2021,4B,Coneflower,C1,24.5,
-10/4/2021,4B,Coneflower,C2,28,
-10/4/2021,4B,Joe-Pye,J1,75,
-10/4/2021,4B,Joe-Pye,J2,67.5,
-10/4/2021,4C,Milkweed,M1,37,26.46
-10/4/2021,4C,Milkweed,M2,35.5,
-10/4/2021,4C,Coneflower,C1,85,
-10/4/2021,4C,Coneflower,C2,23,
-10/4/2021,4C,Joe-Pye,J1,66,
-10/4/2021,4C,Joe-Pye,J2,75,
-8/27/2021,1A,Milkweed,M1,21,9.57
-8/27/2021,1A,Milkweed,M2,25.5,
-8/27/2021,1A,Coneflower,C1,15.5,
-8/27/2021,1A,Coneflower,C2,20,
-8/27/2021,1A,Joe-Pye,J1,63.5,
-8/27/2021,1A,Joe-Pye,J2,45,
-8/27/2021,1B,Milkweed,M1,25,11.89
-8/27/2021,1B,Milkweed,M2,24,
-8/27/2021,1B,Coneflower,C1,23,
-8/27/2021,1B,Coneflower,C2,17.5,
-8/27/2021,1B,Joe-Pye,J1,45.5,
-8/27/2021,1B,Joe-Pye,J2,49,
-8/27/2021,1C,Milkweed,M1,30.5,15.42
-8/27/2021,1C,Milkweed,M2,19.5,
-8/27/2021,1C,Coneflower,C1,22,
-8/27/2021,1C,Coneflower,C2,19.5,
-8/27/2021,1C,Joe-Pye,J1,56,
-8/27/2021,1C,Joe-Pye,J2,63,
-8/27/2021,2A,Milkweed,M1,40.5,52.13
-8/27/2021,2A,Milkweed,M2,41,
-8/27/2021,2A,Coneflower,C1,23.5,
-8/27/2021,2A,Coneflower,C2,21,
-8/27/2021,2A,Joe-Pye,J1,68,
-8/27/2021,2A,Joe-Pye,J2,78,
-8/27/2021,2B,Milkweed,M1,40,45.75
-8/27/2021,2B,Milkweed,M2,27,
-8/27/2021,2B,Coneflower,C1,24.5,
-8/27/2021,2B,Coneflower,C2,44,
-8/27/2021,2B,Joe-Pye,J1,62,
-8/27/2021,2B,Joe-Pye,J2,74.5,
-8/27/2021,2C,Milkweed,M1,36,35.53
-8/27/2021,2C,Milkweed,M2,36,
-8/27/2021,2C,Coneflower,C1,27,
-8/27/2021,2C,Coneflower,C2,28,
-8/27/2021,2C,Joe-Pye,J1,68.5,
-8/27/2021,2C,Joe-Pye,J2,65,
-8/27/2021,3A,Milkweed,M1,18,35.66
-8/27/2021,3A,Milkweed,M2,36.5,
-8/27/2021,3A,Coneflower,C1,26,
-8/27/2021,3A,Coneflower,C2,65.5,
-8/27/2021,3A,Joe-Pye,J1,60,
-8/27/2021,3A,Joe-Pye,J2,74,
-8/27/2021,3B,Milkweed,M1,33,31.53
-8/27/2021,3B,Milkweed,M2,36,
-8/27/2021,3B,Coneflower,C1,39.5,
-8/27/2021,3B,Coneflower,C2,21.5,
-8/27/2021,3B,Joe-Pye,J1,69.5,
-8/27/2021,3B,Joe-Pye,J2,66.5,
-8/27/2021,3C,Milkweed,M1,46,38.09
-8/27/2021,3C,Milkweed,M2,32,
-8/27/2021,3C,Coneflower,C1,21,
-8/27/2021,3C,Coneflower,C2,23,
-8/27/2021,3C,Joe-Pye,J1,70,
-8/27/2021,3C,Joe-Pye,J2,56.5,
-8/27/2021,4A,Milkweed,M1,36,46.65
-8/27/2021,4A,Milkweed,M2,39.5,
-8/27/2021,4A,Coneflower,C1,27,
-8/27/2021,4A,Coneflower,C2,23,
-8/27/2021,4A,Joe-Pye,J1,84,
-8/27/2021,4A,Joe-Pye,J2,74,
-8/27/2021,4B,Milkweed,M1,34.5,48.59
-8/27/2021,4B,Milkweed,M2,36.5,
-8/27/2021,4B,Coneflower,C1,64,
-8/27/2021,4B,Coneflower,C2,23,
-8/27/2021,4B,Joe-Pye,J1,67.5,
-8/27/2021,4B,Joe-Pye,J2,74,
-8/27/2021,4C,Milkweed,M1,40,44.39
-8/27/2021,4C,Milkweed,M2,39,
-8/27/2021,4C,Coneflower,C1,24,
-8/27/2021,4C,Coneflower,C2,27,
-8/27/2021,4C,Joe-Pye,J1,72.5,
-8/27/2021,4C,Joe-Pye,J2,61,
-8/4/2021,1A,Milkweed,M1,20,8.95
-8/4/2021,1A,Milkweed,M2,25,
-8/4/2021,1A,Coneflower,C1,15.5,
-8/4/2021,1A,Coneflower,C2,20,
-8/4/2021,1A,Joe-Pye,J1,57,
-8/4/2021,1A,Joe-Pye,J2,43,
-8/4/2021,1B,Milkweed,M1,26,12.39
-8/4/2021,1B,Milkweed,M2,25,
-8/4/2021,1B,Coneflower,C1,22,
-8/4/2021,1B,Coneflower,C2,18,
-8/4/2021,1B,Joe-Pye,J1,41,
-8/4/2021,1B,Joe-Pye,J2,44,
-8/4/2021,1C,Milkweed,M1,27,13.18
-8/4/2021,1C,Milkweed,M2,21,
-8/4/2021,1C,Coneflower,C1,20,
-8/4/2021,1C,Coneflower,C2,21.5,
-8/4/2021,1C,Joe-Pye,J1,53.5,
-8/4/2021,1C,Joe-Pye,J2,56,
-8/4/2021,2A,Milkweed,M1,26,24.5
-8/4/2021,2A,Milkweed,M2,24,
-8/4/2021,2A,Coneflower,C1,20.5,
-8/4/2021,2A,Coneflower,C2,21.5,
-8/4/2021,2A,Joe-Pye,J1,52,
-8/4/2021,2A,Joe-Pye,J2,63.5,
-8/4/2021,2B,Milkweed,M1,26.5,27.83
-8/4/2021,2B,Milkweed,M2,21,
-8/4/2021,2B,Coneflower,C1,21,
-8/4/2021,2B,Coneflower,C2,43.5,
-8/4/2021,2B,Joe-Pye,J1,59,
-8/4/2021,2B,Joe-Pye,J2,63.5,
-8/4/2021,2C,Milkweed,M1,21,19.32
-8/4/2021,2C,Milkweed,M2,28.5,
-8/4/2021,2C,Coneflower,C1,21,
-8/4/2021,2C,Coneflower,C2,24.5,
-8/4/2021,2C,Joe-Pye,J1,56,
-8/4/2021,2C,Joe-Pye,J2,53,
-8/4/2021,3A,Milkweed,M1,16.5,18.84
-8/4/2021,3A,Milkweed,M2,26,
-8/4/2021,3A,Coneflower,C1,32,
-8/4/2021,3A,Coneflower,C2,31.5,
-8/4/2021,3A,Joe-Pye,J1,50.5,
-8/4/2021,3A,Joe-Pye,J2,66,
-8/4/2021,3B,Milkweed,M1,26,20.59
-8/4/2021,3B,Milkweed,M2,27,
-8/4/2021,3B,Coneflower,C1,19.5,
-8/4/2021,3B,Coneflower,C2,19,
-8/4/2021,3B,Joe-Pye,J1,59,
-8/4/2021,3B,Joe-Pye,J2,55.5,
-8/4/2021,3C,Milkweed,M1,30,31.6
-8/4/2021,3C,Milkweed,M2,27.5,
-8/4/2021,3C,Coneflower,C1,18,
-8/4/2021,3C,Coneflower,C2,22,
-8/4/2021,3C,Joe-Pye,J1,59.5,
-8/4/2021,3C,Joe-Pye,J2,35.5,
-8/4/2021,4A,Milkweed,M1,31,31.6
-8/4/2021,4A,Milkweed,M2,25,
-8/4/2021,4A,Coneflower,C1,21,
-8/4/2021,4A,Coneflower,C2,27,
-8/4/2021,4A,Joe-Pye,J1,72.5,
-8/4/2021,4A,Joe-Pye,J2,57.5,
-8/4/2021,4B,Milkweed,M1,27,20.44
-8/4/2021,4B,Milkweed,M2,25.5,
-8/4/2021,4B,Coneflower,C1,24,
-8/4/2021,4B,Coneflower,C2,21.5,
-8/4/2021,4B,Joe-Pye,J1,56,
-8/4/2021,4B,Joe-Pye,J2,42,
-8/4/2021,4C,Milkweed,M1,27,26.23
-8/4/2021,4C,Milkweed,M2,27,
-8/4/2021,4C,Coneflower,C1,23,
-8/4/2021,4C,Coneflower,C2,19.5,
-8/4/2021,4C,Joe-Pye,J1,61.5,
-8/4/2021,4C,Joe-Pye,J2,64,
-7/13/2021,1A,Milkweed,M1,10,8.94
-7/13/2021,1A,Milkweed,M2,15.5,
-7/13/2021,1A,Coneflower,C1,11,
-7/13/2021,1A,Coneflower,C2,16.5,
-7/13/2021,1A,Joe-Pye,J1,37,
-7/13/2021,1A,Joe-Pye,J2,30.5,
-7/13/2021,1B,Milkweed,M1,16,10.56
-7/13/2021,1B,Milkweed,M2,19,
-7/13/2021,1B,Coneflower,C1,17,
-7/13/2021,1B,Coneflower,C2,10,
-7/13/2021,1B,Joe-Pye,J1,26.5,
-7/13/2021,1B,Joe-Pye,J2,25,
-7/13/2021,1C,Milkweed,M1,14.5,9.33
-7/13/2021,1C,Milkweed,M2,16.5,
-7/13/2021,1C,Coneflower,C1,12.5,
-7/13/2021,1C,Coneflower,C2,13.5,
-7/13/2021,1C,Joe-Pye,J1,34,
-7/13/2021,1C,Joe-Pye,J2,37,
-7/13/2021,2A,Milkweed,M1,15,
-7/13/2021,2A,Milkweed,M2,18,
-7/13/2021,2A,Coneflower,C1,12.5,
-7/13/2021,2A,Coneflower,C2,15.5,
-7/13/2021,2A,Joe-Pye,J1,30.5,
-7/13/2021,2A,Joe-Pye,J2,35.5,
-7/13/2021,2B,Milkweed,M1,17,12
-7/13/2021,2B,Milkweed,M2,11.5,
-7/13/2021,2B,Coneflower,C1,11.5,
-7/13/2021,2B,Coneflower,C2,15,
-7/13/2021,2B,Joe-Pye,J1,36,
-7/13/2021,2B,Joe-Pye,J2,37.5,
-7/13/2021,2C,Milkweed,M1,16,9.12
-7/13/2021,2C,Milkweed,M2,18,
-7/13/2021,2C,Coneflower,C1,12.5,
-7/13/2021,2C,Coneflower,C2,12,
-7/13/2021,2C,Joe-Pye,J1,42.5,
-7/13/2021,2C,Joe-Pye,J2,34.5,
-7/13/2021,3A,Milkweed,M1,8.5,9.34
-7/13/2021,3A,Milkweed,M2,16,
-7/13/2021,3A,Coneflower,C1,13,
-7/13/2021,3A,Coneflower,C2,10.5,
-7/13/2021,3A,Joe-Pye,J1,26,
-7/13/2021,3A,Joe-Pye,J2,41.5,
-7/13/2021,3B,Milkweed,M1,20.5,11.08
-7/13/2021,3B,Milkweed,M2,17,
-7/13/2021,3B,Coneflower,C1,15.5,
-7/13/2021,3B,Coneflower,C2,13.5,
-7/13/2021,3B,Joe-Pye,J1,42,
-7/13/2021,3B,Joe-Pye,J2,28.5,
-7/13/2021,3C,Milkweed,M1,18.5,9.87
-7/13/2021,3C,Milkweed,M2,18,
-7/13/2021,3C,Coneflower,C1,13,
-7/13/2021,3C,Coneflower,C2,17.5,
-7/13/2021,3C,Joe-Pye,J1,34,
-7/13/2021,3C,Joe-Pye,J2,24.5,
-7/13/2021,4A,Milkweed,M1,17,14.85
-7/13/2021,4A,Milkweed,M2,18,
-7/13/2021,4A,Coneflower,C1,17,
-7/13/2021,4A,Coneflower,C2,14,
-7/13/2021,4A,Joe-Pye,J1,41,
-7/13/2021,4A,Joe-Pye,J2,35,
-7/13/2021,4B,Milkweed,M1,16,8.97
-7/13/2021,4B,Milkweed,M2,14,
-7/13/2021,4B,Coneflower,C1,17.5,
-7/13/2021,4B,Coneflower,C2,8,
-7/13/2021,4B,Joe-Pye,J1,27,
-7/13/2021,4B,Joe-Pye,J2,24,
-7/13/2021,4C,Milkweed,M1,14.5,12.8
-7/13/2021,4C,Milkweed,M2,16.5,
-7/13/2021,4C,Coneflower,C1,11,
-7/13/2021,4C,Coneflower,C2,14,
-7/13/2021,4C,Joe-Pye,J1,32,
-7/13/2021,4C,Joe-Pye,J2,38,
+﻿Date,Plot ID,Plant,Veg ID,"Height from shoot base to apical meristem, or tallest leaf petiole (cm)",Percent Green Cover,Notes
+10/4/2021,1A,Milkweed,M1,16.5,5.91,
+10/4/2021,1A,Milkweed,M2,24,,
+10/4/2021,1A,Coneflower,C1,12.5,,
+10/4/2021,1A,Coneflower,C2,19,,
+10/4/2021,1A,Joe-Pye,J1,64,,
+10/4/2021,1A,Joe-Pye,J2,36.5,,
+10/4/2021,1B,Milkweed,M1,21.5,4.49,
+10/4/2021,1B,Milkweed,M2,23,,
+10/4/2021,1B,Coneflower,C1,21,,
+10/4/2021,1B,Coneflower,C2,17,,
+10/4/2021,1B,Joe-Pye,J1,44,,
+10/4/2021,1B,Joe-Pye,J2,47.5,,
+10/4/2021,1C,Milkweed,M1,28.5,7.36,
+10/4/2021,1C,Milkweed,M2,16,,
+10/4/2021,1C,Coneflower,C1,20,,
+10/4/2021,1C,Coneflower,C2,22.5,,
+10/4/2021,1C,Joe-Pye,J1,39,,
+10/4/2021,1C,Joe-Pye,J2,62,,
+10/4/2021,2A,Milkweed,M1,35,37.79,
+10/4/2021,2A,Milkweed,M2,41,,
+10/4/2021,2A,Coneflower,C1,23,,
+10/4/2021,2A,Coneflower,C2,22,,
+10/4/2021,2A,Joe-Pye,J1,68.5,,
+10/4/2021,2A,Joe-Pye,J2,78.5,,
+10/4/2021,2B,Milkweed,M1,29,23.77,
+10/4/2021,2B,Milkweed,M2,26,,
+10/4/2021,2B,Coneflower,C1,32,,flowering
+10/4/2021,2B,Coneflower,C2,32.5,,
+10/4/2021,2B,Joe-Pye,J1,69,,
+10/4/2021,2B,Joe-Pye,J2,77,,
+10/4/2021,2C,Milkweed,M1,34,33.6,
+10/4/2021,2C,Milkweed,M2,30,,
+10/4/2021,2C,Coneflower,C1,28,,
+10/4/2021,2C,Coneflower,C2,28,,
+10/4/2021,2C,Joe-Pye,J1,69,,
+10/4/2021,2C,Joe-Pye,J2,69.5,,
+10/4/2021,3A,Milkweed,M1,19,28.56,
+10/4/2021,3A,Milkweed,M2,38.5,,
+10/4/2021,3A,Coneflower,C1,25.5,,
+10/4/2021,3A,Coneflower,C2,80.5,,
+10/4/2021,3A,Joe-Pye,J1,59,,
+10/4/2021,3A,Joe-Pye,J2,75,,
+10/4/2021,3B,Milkweed,M1,33,27.03,
+10/4/2021,3B,Milkweed,M2,27,,
+10/4/2021,3B,Coneflower,C1,74,,
+10/4/2021,3B,Coneflower,C2,24.5,,
+10/4/2021,3B,Joe-Pye,J1,72.5,,
+10/4/2021,3B,Joe-Pye,J2,66.5,,
+10/4/2021,3C,Milkweed,M1,50.5,35.19,
+10/4/2021,3C,Milkweed,M2,32,,
+10/4/2021,3C,Coneflower,C1,20,,
+10/4/2021,3C,Coneflower,C2,22.5,,
+10/4/2021,3C,Joe-Pye,J1,74.5,,
+10/4/2021,3C,Joe-Pye,J2,58,,
+10/4/2021,4A,Milkweed,M1,36.5,35.95,
+10/4/2021,4A,Milkweed,M2,44,,
+10/4/2021,4A,Coneflower,C1,26.5,,
+10/4/2021,4A,Coneflower,C2,23,,
+10/4/2021,4A,Joe-Pye,J1,85,,
+10/4/2021,4A,Joe-Pye,J2,73.5,,
+10/4/2021,4B,Milkweed,M1,43,43.9,
+10/4/2021,4B,Milkweed,M2,42,,
+10/4/2021,4B,Coneflower,C1,24.5,,
+10/4/2021,4B,Coneflower,C2,28,,
+10/4/2021,4B,Joe-Pye,J1,75,,
+10/4/2021,4B,Joe-Pye,J2,67.5,,
+10/4/2021,4C,Milkweed,M1,37,26.46,
+10/4/2021,4C,Milkweed,M2,35.5,,
+10/4/2021,4C,Coneflower,C1,85,,flower
+10/4/2021,4C,Coneflower,C2,23,,
+10/4/2021,4C,Joe-Pye,J1,66,,
+10/4/2021,4C,Joe-Pye,J2,75,,
+8/27/2021,1A,Milkweed,M1,21,9.57,"1 dried/1 drying shoot, overall healthy but a light green-yellow color persists. (no flowering)"
+8/27/2021,1A,Milkweed,M2,25.5,,Healthy other than light green-yellow color
+8/27/2021,1A,Coneflower,C1,15.5,,"Lower leaf die off, unhealthy green color, no new growth or flower, no damage and no ND"
+8/27/2021,1A,Coneflower,C2,20,,"Lower leaf die off, unhealthy green color, no new growth or flower, no damage and no ND"
+8/27/2021,1A,Joe-Pye,J1,63.5,,"Unchanged (still a light green/yellow color). Leggy with increased lower leaf death, minor-average pest damage, and less than 3 shoots"
+8/27/2021,1A,Joe-Pye,J2,45,,"Unchanged (still a light green/yellow color). Leggy with increased lower leaf death, minor-average pest damage, and less than 3 shoots"
+8/27/2021,1B,Milkweed,M1,25,11.89,Healthy other than light green-yellow color
+8/27/2021,1B,Milkweed,M2,24,,Healthy other than light green-yellow color
+8/27/2021,1B,Coneflower,C1,23,,Weed competition leading to some leaf die off. Slightly more pest damage than 1A treatment. Similar to 1A's otherwise.
+8/27/2021,1B,Coneflower,C2,17.5,,Slightly more pest damage than 1A treatment. Similar to 1A's otherwise.
+8/27/2021,1B,Joe-Pye,J1,45.5,,"Unchanged (still a light green/yellow color). Leggy with increased lower leaf death, minor-average pest damage, and less than 3 shoots"
+8/27/2021,1B,Joe-Pye,J2,49,,"Unchanged (still a light green/yellow color). Leggy with increased lower leaf death, minor-average pest damage, and less than 3 shoots"
+8/27/2021,1C,Milkweed,M1,30.5,15.42,Healthy other than light green-yellow color
+8/27/2021,1C,Milkweed,M2,19.5,,Healthy other than light green-yellow color. Seed pod being produced.
+8/27/2021,1C,Coneflower,C1,22,,Slightly more pest damage than 1A treatment. Similar to 1A's otherwise.
+8/27/2021,1C,Coneflower,C2,19.5,,Slightly more pest damage than 1A treatment. Similar to 1A's otherwise.
+8/27/2021,1C,Joe-Pye,J1,56,,"Unchanged (still a light green/yellow color). Leggy with increased lower leaf death, minor-average pest damage, and less than 3 shoots"
+8/27/2021,1C,Joe-Pye,J2,63,,"Unchanged (still a light green/yellow color). Leggy with increased lower leaf death, minor-average pest damage, and less than 3 shoots"
+8/27/2021,2A,Milkweed,M1,40.5,52.13,"Some dying/dead shoots, but new growths emerging around them. Many current blooms and a lot of pod production"
+8/27/2021,2A,Milkweed,M2,41,,"Some dying/dead shoots, but new growths emerging around them. Many current blooms and a lot of pod production"
+8/27/2021,2A,Coneflower,C1,23.5,,"Healthy green, multiple current new growths, little to no damage. No stalk or flower growth."
+8/27/2021,2A,Coneflower,C2,21,,"Healthy green, multiple current new growths, little to no damage. No stalk or flower growth."
+8/27/2021,2A,Joe-Pye,J1,68,,"Some dying of lower leaves, vigorous growth/ spread, many blooms, minor pest damage, a very healthy green."
+8/27/2021,2A,Joe-Pye,J2,78,,"Some dying of lower leaves, vigorous growth/ spread, many blooms, minor pest damage, a very healthy green."
+8/27/2021,2B,Milkweed,M1,40,45.75,"2 drying shoots, but multiple new growths emerging around them, flowering, and very healthy "
+8/27/2021,2B,Milkweed,M2,27,,"Some fallen over shoots, but 5 new shoot growths"
+8/27/2021,2B,Coneflower,C1,24.5,,"Just beginning to grow stalk for flower, very healthy"
+8/27/2021,2B,Coneflower,C2,44,,"Flowered early in season (flower failed) and second bloom is looking similar, plant is now focusing on new leaf growth "
+8/27/2021,2B,Joe-Pye,J1,62,,"Some dying of lower leaves, vigorous growth/ spread, many blooms, minor pest damage, a very healthy green."
+8/27/2021,2B,Joe-Pye,J2,74.5,,"Some dying of lower leaves, vigorous growth/ spread, many blooms, minor pest damage, a very healthy green."
+8/27/2021,2C,Milkweed,M1,36,35.53,"Very healthy, flowering and producing seed pods and 1 new shoot growth."
+8/27/2021,2C,Milkweed,M2,36,,"A couple (~5) dying/dead shoots minimal flowering and some pod growth, still holds many healthy shoots to not be concerned."
+8/27/2021,2C,Coneflower,C1,27,,Many shoots and leaves (far more vig spread than other 2's) and very healthy other than some missing leaves from pest damage
+8/27/2021,2C,Coneflower,C2,28,,Many shoots and leaves (far more vig spread than other 2's) and very healthy other than some missing leaves from pest damage
+8/27/2021,2C,Joe-Pye,J1,68.5,,"Less spread/vig growth than other 2's (likely due to intense damage they had upon arrival), very healthy otherwise."
+8/27/2021,2C,Joe-Pye,J2,65,,"Less spread/vig growth than other 2's (likely due to intense damage they had upon arrival), very healthy otherwise."
+8/27/2021,3A,Milkweed,M1,18,35.66,"2/4 shoots are healthy, others dead, 2 new growths just beginning to emerge"
+8/27/2021,3A,Milkweed,M2,36.5,,"Very healthy, flowering, some fallen over shoots."
+8/27/2021,3A,Coneflower,C1,26,,Healthy spread+color+multiple current new growths and some minimal pest damage.
+8/27/2021,3A,Coneflower,C2,65.5,,"Healthy, some lightening of leaves green color, but currently producing a large flower stalk with 4 buds"
+8/27/2021,3A,Joe-Pye,J1,60,,"Very healthy, blooming, little to no lower leaf death+minor damage. Vig. growth/spread."
+8/27/2021,3A,Joe-Pye,J2,74,,"Becoming leggy+increased in pest damage (shredding of leaves), 1 shoot developing a light green/yellow color"
+8/27/2021,3B,Milkweed,M1,33,31.53,"Many fallen shoots, a couple dead stems, otherwise very healthy (likely to happen with100 gal test).  "
+8/27/2021,3B,Milkweed,M2,36,,"Very healthy, many new shoots, both flower and pod production"
+8/27/2021,3B,Coneflower,C1,39.5,,Beginning to flower now and experiencing the lightening of its green color (likely for stalk growth) healthy otherwise
+8/27/2021,3B,Coneflower,C2,21.5,,"No flowering, lower leaf yellowing+drying, lots of pest damage"
+8/27/2021,3B,Joe-Pye,J1,69.5,,"Becoming leggy+, some shoots developing a light green/yellow color, good spread otherwise."
+8/27/2021,3B,Joe-Pye,J2,66.5,,"Becoming leggy+, some shoots developing a light green/yellow color, good spread otherwise."
+8/27/2021,3C,Milkweed,M1,46,38.09,"Both VERY healthy, tall shoots with many flowers and pod production with multiple new shoot growths and no drying shoots"
+8/27/2021,3C,Milkweed,M2,32,,"Both VERY healthy, tall shoots with many flowers and pod production with multiple new shoot growths and no drying shoots"
+8/27/2021,3C,Coneflower,C1,21,,Very low number of leaves and shoots wit hdying lower leaves and pest damage (healthy green otherwise)
+8/27/2021,3C,Coneflower,C2,23,,"High number of leaves and shoots, leaves are very large, multiple new growths and a very healthy green"
+8/27/2021,3C,Joe-Pye,J1,70,,"Becoming leggy+, some shoots developing a light green/yellow color, good spread otherwise. Less pest damage than other 3's"
+8/27/2021,3C,Joe-Pye,J2,56.5,,"Becoming leggy+, some shoots developing a light green/yellow color, good spread otherwise. Less pest damage than other 3's"
+8/27/2021,4A,Milkweed,M1,36,46.65,"Some very tall and healthy shoots with flowers and pods, but 1 dead and 1 dying shoot (yellow and blue color possible oversaturation of roots and rot)"
+8/27/2021,4A,Milkweed,M2,39.5,,Similar healthy qualities as M1 just no rot
+8/27/2021,4A,Coneflower,C1,27,,"Very healthy, minimal to no damage, very large leaves and spread, with a couple new growths"
+8/27/2021,4A,Coneflower,C2,23,,"Less spread, but otherwise similar to C1"
+8/27/2021,4A,Joe-Pye,J1,84,,"Very healthy and vig growth, some legginess to a couple shoots, minor damage, many blooms. "
+8/27/2021,4A,Joe-Pye,J2,74,,"Very healthy and vig growth, some legginess to a couple shoots, minor damage, many blooms. "
+8/27/2021,4B,Milkweed,M1,34.5,48.59,"Very large spread with a high # of shoots, no drying/dying, and pod production just beginning "
+8/27/2021,4B,Milkweed,M2,36.5,,"Far less shoots than M1, most fallen/falling over, but still are healthy. New shoot growth experiencing some rot it seems"
+8/27/2021,4B,Coneflower,C1,64,,"Very healthy green color, minor damage, and multiple new growths"
+8/27/2021,4B,Coneflower,C2,23,,"Skinnier leaves, far less damage than C1 with 1 new shoot growth, otherwise healthy"
+8/27/2021,4B,Joe-Pye,J1,67.5,,Healthy other than some minor pest damage and legginess of lower leaf die off
+8/27/2021,4B,Joe-Pye,J2,74,,Healthy other than some minor pest damage and legginess of lower leaf die off
+8/27/2021,4C,Milkweed,M1,40,44.39,"Very healthy, many branches are fallen over but there is no dying , and some pod production"
+8/27/2021,4C,Milkweed,M2,39,,"No fallen branches, very thick growth and spread with flower and pod production"
+8/27/2021,4C,Coneflower,C1,24,,"Stalk growth with 3 flowers begining its process, very healthy other than some lightening of lower leaves"
+8/27/2021,4C,Coneflower,C2,27,,"A couple new growths, healthy dark green color with minimal damage and good spread."
+8/27/2021,4C,Joe-Pye,J1,72.5,,"Very healthy and vig growth, some legginess to a couple shoots, minor damage, many blooms. "
+8/27/2021,4C,Joe-Pye,J2,61,,Only ~6 shoots and VERY leggy only getting worse with more leaf death. 3/6 branches fallen'bent intensly.
+8/4/2021,1A,Milkweed,M1,20,8.95,"Min. new growth present, but height doubled, light green/yellow leaves, no blooms, min. spread"
+8/4/2021,1A,Milkweed,M2,25,,"Min. new growth present, but height doubled, light green/yellow leaves, no blooms, min. spread (2 more shoots than M1)"
+8/4/2021,1A,Coneflower,C1,15.5,,"Drying/dying of lower leaves, healthy green, slow-new growth, no ND present"
+8/4/2021,1A,Coneflower,C2,20,,"Drying/dying of lower leaves, healthy green, slow-new growth, no ND present"
+8/4/2021,1A,Joe-Pye,J1,57,,"only 3 shoots total. leggy, lower leaves drying/dying, 2 blooms, a light green/brown yellow color of leaves and stalk.Ave. damage to both old/new growth"
+8/4/2021,1A,Joe-Pye,J2,43,,"Only 4 shoots, more leggy, no bloom, a light green/brown yellow color of leaves and stalk. Ave. damage to both old/new growth"
+8/4/2021,1B,Milkweed,M1,26,12.39,"Yellowing shoots, primarily a greenish-yellow color, 1 small bloom, multiple shoots"
+8/4/2021,1B,Milkweed,M2,25,,"Healthier green, but still light, less spread, no bloom"
+8/4/2021,1B,Coneflower,C1,22,,"Yellow colored leaves, lower leaves turning a red-brown, weed competition at base, No ND"
+8/4/2021,1B,Coneflower,C2,18,,"Larger sized leaves, healthier color , some leaves just starting to turn the red-brown color"
+8/4/2021,1B,Joe-Pye,J1,41,,"Few tall shoots, multiple stunted ones, leggy, lower leaves drying, light green- yellow color. Ave. damage to both old/new growth"
+8/4/2021,1B,Joe-Pye,J2,44,,"Only 2 shoots, large blooms (maybe stress), similar color as J1. Ave. damage to both old/new growth"
+8/4/2021,1C,Milkweed,M1,27,13.18,"lightly yellowing leaves/stalks, at least 1 bloom, and minor new growth"
+8/4/2021,1C,Milkweed,M2,21,,"lightly yellowing leaves/stalks, at least 1 bloom, and minor new growth"
+8/4/2021,1C,Coneflower,C1,20,,"Yellowing and drying of lower leaves, no ND, and min. damage"
+8/4/2021,1C,Coneflower,C2,21.5,,"Yellowing and drying of lower leaves, no ND, and min. damage"
+8/4/2021,1C,Joe-Pye,J1,53.5,,"~10 shoots. 1 bloom, similar color as other 1-JP's, less drying of lower leaves. Ave. damage"
+8/4/2021,1C,Joe-Pye,J2,56,,"less healthy shoots ~5, larger bloom, more drying, more leggy, Ave. damage"
+8/4/2021,2A,Milkweed,M1,26,24.5,"Healthy green color, blooming, minimal yellowing of lower leaves, multiple new growths of leaves and buds."
+8/4/2021,2A,Milkweed,M2,24,,"Healthy green color, blooming, minimal yellowing of lower leaves, multiple new growths of leaves and buds."
+8/4/2021,2A,Coneflower,C1,20.5,,"Low number of leaves, 1 fallen over stem+leaf, some new growth, but otherwise healthy, No ND/ similar damge as last check"
+8/4/2021,2A,Coneflower,C2,21.5,,"2-3 current new growths, healthy color, spread and height. No ND/ similar damge as last check"
+8/4/2021,2A,Joe-Pye,J1,52,,"Healthy green color15+ very healthy vig. new growth shoots, much less damage to new leaves and multiple blooms"
+8/4/2021,2A,Joe-Pye,J2,63.5,,"Healthy green color15+ very healthy vig. new growth shoots, much less damage to new leaves and multiple blooms"
+8/4/2021,2B,Milkweed,M1,26.5,27.83,"Large spread, 1 current bloom, 3 starting, some missing leavs due to caterpillars. New growth as well"
+8/4/2021,2B,Milkweed,M2,21,,"no blooms, but each stock is producing new growths, otherwise healthy"
+8/4/2021,2B,Coneflower,C1,21,,"5+ current new growths, very healthy green color, min.-no damge and no ND"
+8/4/2021,2B,Coneflower,C2,43.5,,"Less leaves than C1, but larger size, beginnings of minor new growth, one flower just 1/2 bloomed and a new flower beginning, large amounts of damage and yellowing bottom leaves"
+8/4/2021,2B,Joe-Pye,J1,59,,"Healthy green color15+ very healthy vig. new growth shoots, much less damage to new leaves and multiple blooms"
+8/4/2021,2B,Joe-Pye,J2,63.5,,"Healthy green color15+ very healthy vig. new growth shoots, much less damage to new leaves and multiple blooms"
+8/4/2021,2C,Milkweed,M1,21,19.32,"multiple buds, no blooms, slightly damaged from 100 gal test"
+8/4/2021,2C,Milkweed,M2,28.5,,"Multiple slightly drying branches, many new growths beginning, multiple blooms and buds"
+8/4/2021,2C,Coneflower,C1,21,,"Both most vig. growth of 2's, with multiple new growths, still quite damaged from pests, but very healthy"
+8/4/2021,2C,Coneflower,C2,24.5,,"Both most vig. growth of 2's, with multiple new growths, still quite damaged from pests, but very healthy"
+8/4/2021,2C,Joe-Pye,J1,56,,"Fewer shoots than other 2's, healthy green, multiple new growths, multiple current blooms and new blooms and growth. Good recovery from intense damage upon arrival"
+8/4/2021,2C,Joe-Pye,J2,53,,"Fewer shoots than other 2's, healthy green, multiple new growths, multiple current blooms and new blooms and growth. Good recovery from intense damage upon arrival"
+8/4/2021,3A,Milkweed,M1,16.5,18.84,"Healthy green, blooming, no damage or ND"
+8/4/2021,3A,Milkweed,M2,26,,Very damged from 100gal test. Stunted and multiple dead branches
+8/4/2021,3A,Coneflower,C1,32,,1 current new growth. 1 leave entirely eaten and some minor damge on others. No ND
+8/4/2021,3A,Coneflower,C2,31.5,,"some dying lower leaves, seems controlled for new growth and stalk for flower"
+8/4/2021,3A,Joe-Pye,J1,50.5,,"Full bloom, average spread and damage, healthy green otherwise. light dying off of old leaves"
+8/4/2021,3A,Joe-Pye,J2,66,,"Full bloom, average spread and damage, healthy green otherwise. more dying off of old leaves compared to J1"
+8/4/2021,3B,Milkweed,M1,26,20.59,"Some branches dying, but new growth emerging behind (seems controlled) as flowering ends"
+8/4/2021,3B,Milkweed,M2,27,,"Some branches dying, but new growth emerging behind (seems controlled) as flowering ends"
+8/4/2021,3B,Coneflower,C1,19.5,,"Stalk growth, some light damage and no ND. and a healthy green"
+8/4/2021,3B,Coneflower,C2,19,,Lower leaf death (weed competition). furling leaves (drying)
+8/4/2021,3B,Joe-Pye,J1,59,,Multiple healthy stalks. Lower leaf die off (likely drying) full bloom and light damage
+8/4/2021,3B,Joe-Pye,J2,55.5,,Multiple healthy stalks. Lower leaf die off (likely drying) full bloom and light damage
+8/4/2021,3C,Milkweed,M1,30,31.6,"Very healthy, new and dying blooms. new growth emerging, very good spread and no dying/damage"
+8/4/2021,3C,Milkweed,M2,27.5,,"Very healthy, new and dying blooms. new growth emerging"
+8/4/2021,3C,Coneflower,C1,18,,"Less than average spread, healthy otherwise. minimal damage and no ND"
+8/4/2021,3C,Coneflower,C2,22,,"Very little damge, good spread."
+8/4/2021,3C,Joe-Pye,J1,59.5,,Multiple healthy stalks. Lower leaf die off (likely drying) full bloom and light damage
+8/4/2021,3C,Joe-Pye,J2,35.5,,Multiple healthy stalks. Lower leaf die off (likely drying) full bloom and light damage
+8/4/2021,4A,Milkweed,M1,31,31.6,"Healthy green, minimal to no damage, no ND, blooming"
+8/4/2021,4A,Milkweed,M2,25,,"Healthy green, minimal to no damage, no ND, blooming"
+8/4/2021,4A,Coneflower,C1,21,,"Healthy green, minimal to no damage, no ND, blooming"
+8/4/2021,4A,Coneflower,C2,27,,"Healthy green, minimal to no damage, no ND, blooming"
+8/4/2021,4A,Joe-Pye,J1,72.5,,"Healthy green, minimal to no damage, no ND, blooming. drying/dying bottom leaves"
+8/4/2021,4A,Joe-Pye,J2,57.5,,"Healthy green, minimal to no damage, no ND, blooming. drying/dying bottom leaves"
+8/4/2021,4B,Milkweed,M1,27,20.44,"Healthy green, minimal to no damage, no ND, blooming"
+8/4/2021,4B,Milkweed,M2,25.5,,"Healthy green, minimal to no damage, no ND, blooming"
+8/4/2021,4B,Coneflower,C1,24,,"Healthy green, minimal to no damage, no ND, blooming"
+8/4/2021,4B,Coneflower,C2,21.5,,"Healthy green, minimal to no damage, no ND, blooming"
+8/4/2021,4B,Joe-Pye,J1,56,,"Healthy green, minimal to no damage, no ND, blooming. far less than 4A, but still some lower leaf death"
+8/4/2021,4B,Joe-Pye,J2,42,,"Healthy green, minimal to no damage, no ND, blooming. far less than 4A, but still some lower leaf death"
+8/4/2021,4C,Milkweed,M1,27,26.23,"Slight branch damage (toppled over) from 100 gal test, very healthy otherwise"
+8/4/2021,4C,Milkweed,M2,27,,No damage and very healthy
+8/4/2021,4C,Coneflower,C1,23,,Very healthy and growing stalk to flower
+8/4/2021,4C,Coneflower,C2,19.5,,"Very healthy, more leaf growth as it has not begun to flower"
+8/4/2021,4C,Joe-Pye,J1,61.5,,"Very healthy, similar die off but far less than J2"
+8/4/2021,4C,Joe-Pye,J2,64,,Very leggy. large die off of old leaves. upper leaves/plant very healthy otherwise
+7/13/2021,1A,Milkweed,M1,10,8.94,drying lower branches
+7/13/2021,1A,Milkweed,M2,15.5,,drying lower branches
+7/13/2021,1A,Coneflower,C1,11,,magnesium deficency present upon arrival. New growth healthier
+7/13/2021,1A,Coneflower,C2,16.5,,magnesium deficency present upon arrival. New growth healthier
+7/13/2021,1A,Joe-Pye,J1,37,,"arrived damaged (likely pests), new growth healthy and undamaged so far"
+7/13/2021,1A,Joe-Pye,J2,30.5,,"arrived damaged (likely pests), new growth healthy and undamaged so far"
+7/13/2021,1B,Milkweed,M1,16,10.56,Minor drying of branches+leaves
+7/13/2021,1B,Milkweed,M2,19,,Minor drying of branches+leaves
+7/13/2021,1B,Coneflower,C1,17,,Minor pest damage. New growth shedding nutrient deficency 
+7/13/2021,1B,Coneflower,C2,10,,Minor pest damage. New growth shedding nutrient deficency 
+7/13/2021,1B,Joe-Pye,J1,26.5,,New growth of 5 shoots shows vigorous growth. old growth damaged
+7/13/2021,1B,Joe-Pye,J2,25,,"only 2 shoots. New growth undamaged, old growth still damaged"
+7/13/2021,1C,Milkweed,M1,14.5,9.33,"Some yellowing of leaves, apparant drying "
+7/13/2021,1C,Milkweed,M2,16.5,,"Some yellowing of leaves, apparant drying "
+7/13/2021,1C,Coneflower,C1,12.5,,Minor pest damage. New growth has no nutrient deficencies
+7/13/2021,1C,Coneflower,C2,13.5,,Minor pest damage. New growth has no nutrient deficencies
+7/13/2021,1C,Joe-Pye,J1,34,,"Old damage, but vigorous growth with 1-2 new shoots. New growth= no damage"
+7/13/2021,1C,Joe-Pye,J2,37,,"Old damage, but vigorous growth with 1-2 new shoots. New growth= no damage"
+7/13/2021,2A,Milkweed,M1,15,,"No drying, more spread, and vigorous growth (5+ new shoots). To 1's."
+7/13/2021,2A,Milkweed,M2,18,,"No drying, more spread, and vigorous growth (5+ new shoots). To 1's."
+7/13/2021,2A,Coneflower,C1,12.5,,"Healthy green, new growth, no damage, and no ND"
+7/13/2021,2A,Coneflower,C2,15.5,,"Healthy green, new growth, no damage, and no ND"
+7/13/2021,2A,Joe-Pye,J1,30.5,,"Vigorous growth, (5-10 new shoots) New growth acumulating damage."
+7/13/2021,2A,Joe-Pye,J2,35.5,,"Vigorous growth, (5-10 new shoots) New growth acumulating damage."
+7/13/2021,2B,Milkweed,M1,17,12,"Healthy green, new growth, no damage, and no ND/drying"
+7/13/2021,2B,Milkweed,M2,11.5,,"Still sparce spread from arrival, but healthy otherwise"
+7/13/2021,2B,Coneflower,C1,11.5,,"Healthy green, multiple new growths, no ND and no damage"
+7/13/2021,2B,Coneflower,C2,15,,"minor ND, pest damage, flowering (likely out of stress)"
+7/13/2021,2B,Joe-Pye,J1,36,,"Healthy green, vigorous spread (5+ shoots). Slight damage"
+7/13/2021,2B,Joe-Pye,J2,37.5,,"Less shoots, similar damage, and healthy green"
+7/13/2021,2C,Milkweed,M1,16,9.12,"blooming, healthy green, just sparce and small"
+7/13/2021,2C,Milkweed,M2,18,,"No bloom, but new growth ~10 shoots, all healthy"
+7/13/2021,2C,Coneflower,C1,12.5,,"Multiple new growths, some minor ND, above ave. damage to leaves, large spread"
+7/13/2021,2C,Coneflower,C2,12,,"multiple new growths, no ND, and less damage than C1"
+7/13/2021,2C,Joe-Pye,J1,42.5,,"Pre and post arrival damage is HIGH, minor new growth and budding, ~3 shoots"
+7/13/2021,2C,Joe-Pye,J2,34.5,,"Less damage, but still alot. only 2 healthy shoots, and lower leaves lightening"
+7/13/2021,3A,Milkweed,M1,8.5,9.34,"Very short, but 6 healthy shoots exist"
+7/13/2021,3A,Milkweed,M2,16,,"8 vigorous shoots, healthy"
+7/13/2021,3A,Coneflower,C1,13,,"Multiple new growths, no ND, minor pest damage"
+7/13/2021,3A,Coneflower,C2,10.5,,"2 new growths, slight yellowing of a couple leaves, and minor pest damage"
+7/13/2021,3A,Joe-Pye,J1,26,,"Healthy green, pest damage in both old/new leaves, multiple new growths"
+7/13/2021,3A,Joe-Pye,J2,41.5,,"Rot of lower leaves 5+ healthy shoots, similar pest damage as J1"
+7/13/2021,3B,Milkweed,M1,20.5,11.08,"Healthy green color, spread, no damage or ND, some dying off of old leaves"
+7/13/2021,3B,Milkweed,M2,17,,"Same as M1, but blooming (old leaves appear to be drying)"
+7/13/2021,3B,Coneflower,C1,15.5,,"High turgor (leaves held up), healthy green, no ND, multiple new growths, min. pest damage"
+7/13/2021,3B,Coneflower,C2,13.5,,"Similar qualities to C1, just less vigorous growth "
+7/13/2021,3B,Joe-Pye,J1,42,,"3/7 shoots dropping old leaves, large amounts of damage, also 3 toppled but healthy and new growth"
+7/13/2021,3B,Joe-Pye,J2,28.5,,"Old leaves dropping, less damage as J2, similar toppling and new growth "
+7/13/2021,3C,Milkweed,M1,18.5,9.87,"Healthy green and spread, no pests, and no ND. "
+7/13/2021,3C,Milkweed,M2,18,,"Healthy green and spread, no pests, and no ND. Budding"
+7/13/2021,3C,Coneflower,C1,13,,"Magnesium deficency in new leaves too, only 1 new growth, min. shoots and damage."
+7/13/2021,3C,Coneflower,C2,17.5,,"5+ new growths, healthy green color, min. damage, multiple shoots and large leaves"
+7/13/2021,3C,Joe-Pye,J1,34,,"Ave. damage to old/new leaves, healthy green color, new growths, and budding"
+7/13/2021,3C,Joe-Pye,J2,24.5,,"Only 1 healthy shoot, 3 smaller emerging ones, a more light green color, and less damage than J2"
+7/13/2021,4A,Milkweed,M1,17,14.85,"Healthy green color, vigorous spread, new shoot growth, no damage/ND"
+7/13/2021,4A,Milkweed,M2,18,,"Healthy green color, vigorous spread, new shoot growth, no damage/ND"
+7/13/2021,4A,Coneflower,C1,17,,"V. Large leaves, a v. healthy green, no damage or ND, spread and shoot growth vigorous"
+7/13/2021,4A,Coneflower,C2,14,,"Far less vig. than C1, somewhat large leaves, no ND, and v. min. damage"
+7/13/2021,4A,Joe-Pye,J1,41,,Vig. growth in spread and shoot. Minimal pest damage and a healthy green +bloom
+7/13/2021,4A,Joe-Pye,J2,35,,Vig. growth in spread and shoot. Minimal pest damage and a healthy green +bloom
+7/13/2021,4B,Milkweed,M1,16,8.97,"~10 shoots , but little turgor (branches falling), Just begining to bloom"
+7/13/2021,4B,Milkweed,M2,14,,"Similar to M1, just mroe turgor"
+7/13/2021,4B,Coneflower,C1,17.5,,"V. Large leaves, a v. healthy green, no damage or ND, spread and shoot growth vigorous"
+7/13/2021,4B,Coneflower,C2,8,,"Smaller leaves, height+spread, more damage, some ND, less turgor than C1"
+7/13/2021,4B,Joe-Pye,J1,27,,"Ave. health, Ave. damage, good height and spread compared to other JP's"
+7/13/2021,4B,Joe-Pye,J2,24,,"Healthy, but far less shoot+spread growth, more damage than J1, not blooming"
+7/13/2021,4C,Milkweed,M1,14.5,12.8,"Healthy color, spread, turgor. Just slightly smaller."
+7/13/2021,4C,Milkweed,M2,16.5,,"Healthy color, spread, turgor. Just slightly small, but contains more spread"
+7/13/2021,4C,Coneflower,C1,11,,"One sunburned leaf, average health, spread+height, and turgor, No ND no damage"
+7/13/2021,4C,Coneflower,C2,14,,"Far less shoots, experienced competition with a mimic weed at base of plant "
+7/13/2021,4C,Joe-Pye,J1,32,,"Vigorous height and spread, healthy green color, blooming, little damage"
+7/13/2021,4C,Joe-Pye,J2,38,,"multiple shoots dropping older leaves, min. pest damage, blooming, one toppled branch beginning to yellow"

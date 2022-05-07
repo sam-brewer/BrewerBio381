@@ -9,6 +9,9 @@ output: html_document
 1. Setting counter variable and for loop to calculate the number of zeros in a numeric vector
 ```{r}
 
+library(dplyr)
+library(tidyverse)
+
 ####################################################
 # FUNCTION: count_zeros
 # purpose: calculate the number of zeroes in a numeric vector
